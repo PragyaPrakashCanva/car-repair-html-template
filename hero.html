@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Vehicles</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, red, white);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .vehicle {
+            width: calc(20% - 20px); /* 20% width with margin */
+            margin: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .vehicle img {
+            width: 100%;
+            height: auto;
+        }
+
+        .details {
+            padding: 20px;
+        }
+
+        .details h2 {
+            margin-top: 0;
+        }
+
+        .details p {
+            margin: 5px 0;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="vehicle">
+            <img src="https://heroelectric.in/wp-content/uploads/2023/03/OPTIMA-CX5.0_Maroon-2.png" alt="Electric Vehicle 1">
+            <div class="details">
+                <h2>Optima CX 2.0</h2>
+                <p>Cost: 98,300 Rupees</p>
+                <p>Battery Life: 2 kWh</p>
+                <p>Range: 89 Km/C</p>
+                <a href="https://heroelectric.in/bike/optima-2-0/">Visit</a>
+            </div>
+        </div>
+        <div class="vehicle">
+            <img src="https://heroelectric.in/wp-content/uploads/2023/03/OPTIMA-CX5.0_Blue-2-1.png" alt="Electric Vehicle 2">
+            <div class="details">
+                <h2>Optima CX 5.0</h2>
+                <p>Cost: 1,24,360 Rupees</p>
+                <p>Battery Life: 3 kWh</p>
+                <p>Range: 135 Km/C</p>
+                <a href="https://heroelectric.in/bike/optima-cx-5-0/">Visit</a>
+            </div>
+        </div>
+        <div class="vehicle">
+            <img src="https://heroelectric.in/wp-content/uploads/2022/07/Photon-LP_Beige_shot-3_digi_350x260.png" alt="Electric Vehicle 3">
+            <div class="details">
+                <h2>Hero Electric Photon LP</h2>
+                <p>Cost: 1,10,891 Rupees</p>
+                <p>Battery Life: 72 V</p>
+                <p>Range: 90 Km/C</p>
+                <a href="https://heroelectric.in/bike/photon-lp/">Visit</a>
+            </div>
+        </div>
+        <div class="vehicle">
+            <img src="https://heroelectric.in/wp-content/uploads/2021/02/Atria-gallery-thumb-2.png" alt="Electric Vehicle 4">
+            <div class="details">
+                <h2>Hero Electric Atria LX</h2>
+                <p>Cost: 77,690 Rupees</p>
+                <p>Battery Life: 51.2 V</p>
+                <p>Range: 85 Km/C</p>
+                <a href="https://heroelectric.in/bike/atria-lx/">Visit</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

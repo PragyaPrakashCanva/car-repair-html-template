@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Vehicles</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, red, white);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .vehicle {
+            width: calc(20% - 20px); /* 20% width with margin */
+            margin: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .vehicle img {
+            width: 100%;
+            height: auto;
+        }
+
+        .details {
+            padding: 20px;
+        }
+
+        .details h2 {
+            margin-top: 0;
+        }
+
+        .details p {
+            margin: 5px 0;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="vehicle">
+            <img src="https://www.tvsmotor.com/electric-vehicle/tvs-iqube/-/media/Vehicles/Feature/Iqube/Variant/TVS%20iQube/Color_Images/Racing%20Red%20Glossy/racing-red03.webp" alt="Electric Vehicle 1">
+            <div class="details">
+                <h2>TVS iQube</h2>
+                <p>Cost: ₹93,089</p>
+                <p>Battery Life: 3.4 kWh</p>
+                <p>Range: 100 Km</p>
+                <a href="https://www.tvsmotor.com/electric-vehicle/tvs-iqube/online-booking">Visit</a>
+            </div>
+        </div>
+        <div class="vehicle">
+            <img src="https://www.tvsmotor.com/electric-vehicle/tvs-iqube/-/media/Vehicles/Feature/Iqube/Variant/TVS%20iQube%20S/Color_Images/Mercury%20Grey%20Glossy/mercury-grey03.webp" alt="Electric Vehicle 2">
+            <div class="details">
+                <h2>TVS iQube S</h2>
+                <p>Cost: ₹1.76 lakhs</p>
+                <p>Battery Life: 800 Cycles</p>
+                <p>Range: 100 Km</p>
+                <a href="https://www.tvsmotor.com/electric-vehicle/tvs-iqube/online-booking">Visit</a>
+            </div>
+        </div>
+        <div class="vehicle">
+            <img src="https://www.tvsmotor.com/electric-vehicle/tvs-iqube/-/media/Vehicles/Feature/Iqube/Variant/TVS%20iQube%20ST/Color_Images/Starlight%20Blue%20Glossy/starlight-blue03.webp" alt="Electric Vehicle 3">
+            <div class="details">
+                <h2>Hero TVS iQube ST</h2>
+                <p>Cost: Rs.1.25 Lakh</p>
+                <p>Battery Life: 4.4 kWh</p>
+                <p>Range: 145 km/charge</p>
+                <a href="https://www.tvsmotor.com/electric-vehicle/tvs-iqube/online-booking">Visit</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

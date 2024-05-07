@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "car-repair-html-template",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}

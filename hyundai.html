@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Vehicles</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, red, white);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .vehicle {
+            width: calc(20% - 20px); /* 20% width with margin */
+            margin: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .vehicle img {
+            width: 100%;
+            height: auto;
+        }
+
+        .details {
+            padding: 20px;
+        }
+
+        .details h2 {
+            margin-top: 0;
+        }
+
+        .details p {
+            margin: 5px 0;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="vehicle">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Kona/6228/1658735368758/front-left-side-47.jpg?tr=w-664" alt="Electric Vehicle 1">
+            <div class="details">
+                <h2>Hyundai Kona Electric</h2>
+                <p>Cost: Rs.23.84 - 24.03 Lakh</p>
+                <p>Battery Life: 39.2 kWh</p>
+                <p>Range: 452 km</p>
+                <a href="https://www.cardekho.com/hyundai/kona">Visit</a>
+            </div>
+        </div>
+        <div class="vehicle">
+            <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/110289/ioniq-5-exterior-right-front-three-quarter-95.jpeg?isig=0&q=80" alt="Electric Vehicle 2">
+            <div class="details">
+                <h2>Hyundai Ioniq 5</h2>
+                <p>Cost: Rs. 46.05 Lakh</p>
+                <p>Battery Life: 58 kWh</p>
+                <p>Range: 631 Km/ARAI</p>
+                <a href="https://www.carwale.com/hyundai-cars/ioniq-5/">Visit</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
